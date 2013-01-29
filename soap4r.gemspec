@@ -5,12 +5,12 @@ require 'rubygems'
 SPEC = Gem::Specification.new do |s|
   s.name = "soap4r"
   s.version = "1.5.8.1"
-  s.date = "2009-12-08"
-  s.author = "Foo"
-  s.email = "foofoofoo@gmail.com"
+  s.date = "2013-01-29"
+  s.author = "Paal de Vibe"
+  s.email = ""
   s.homepage = "https://github.com/paalvibe/soap4r"
   s.platform = Gem::Platform::RUBY
-  s.summary = "An implementation of SOAP 1.1 for Ruby."
+  s.summary = "A tiny adjustment to soap4r, thanks to torsten_on_rails."
   s.files = Dir.glob("{bin,lib,test}/**/*")
   s.require_path = "lib"
   s.executables = [ "wsdl2ruby.rb", "xsd2ruby.rb" ]
